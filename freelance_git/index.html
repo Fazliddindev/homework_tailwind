@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freelance</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'gray': '#646464',
+                        'blue_bg': '#040F28',
+
+                    },
+
+                },
+                fontFamily: {
+                    'poppins': ["Poppins"],
+                    'open_sans': ['Open Sans'],
+                    'ubuntu': ['Ubuntu']
+                },
+                container: {
+                    center: true,
+                },
+
+
+            }
+        }
+    </script>
+
+</head>
+
+<body>
+    <header
+        class="container mx-auto xl:px-[140px] lg:px-[120px] md:px-[100px] sm:px-[60px] px-[30px] bg-blue_bg flex flex-row justify-between items-center h-[150px] cursor-pointer">
+        <div>
+            <h1 class="text-white text-[24px] font-semibold leading-normal">Freelancer</h1>
+        </div>
+        <div class="flex flex-row items-center gap-x-[10px] lg:gap-x-[50px]">
+            <ul class="hidden lg:flex lg:flex-row items-center gap-x-[50px] text-gray  text-[16px] font-medium">
+                <li class="hover:text-white">Home</li>
+                <li class="hover:text-white">About</li>
+                <li class="hover:text-white">Services</li>
+                <li class="hover:text-white">Reviews</li>
+                <li class="hover:text-white">Article</li>
+            </ul>
+            <img class="lg:hidden sm:flex hidden w-[50px] h-[30px]" src="./images/togler.svg" alt="">
+            <button class="border-white border-[2px] rounded-full py-[14px] px-[32px] text-white">Register</button>
+        </div>
+    </header>
+    <main>
+        <section
+            class="container mx-auto xl:px-[140px] lg:px-[120px] md:px-[100px] sm:px-[60px] px-[30px]  bg-blue_bg flex flex-row lg:justify-between lg:items-start items-center">
+            <div class="flex flex-col lg:items-start items-center gap-y-[40px] mt-[65px] lg:text-start text-center">
+                <h1 class="lg:w-[500px] text-white text-[56px] font-semibold leading-[75px]">Hy! I Am Shamima Akhi</h1>
+                <p class="text-gray text-[16px] font-normal lg:w-[485px]">Service Line helps you to turn your complex
+                    multisite, multivendor imaging environment into a uniform and balanced operation.</p>
+                <button class="bg-[#FC3867] rounded-full py-[14px] px-[32px] text-white xl:mb-[0px] mb-[40px]">Get
+                    Started</button>
+            </div>
+            <div>
+                <img class="lg:flex hidden" src="./images/img_hero.png" alt="">
+            </div>
+        </section>
+        <section class="container mx-auto justify-center py-[90px] flex lg:flex-row lg:items-start flex-col items-center lg::justify-between">
+            <div class="flex flex-col gap-y-[10px] text-center pr-[60px]">
+                <h1 class="text-[64px] font-semibold">258+</h1>
+                <p class="text-[18px]">Positive Feedback</p>
+                <span class="text-16px text-[#C4C4C4]">From our clients</span>
+            </div>
+            <div class="flex flex-col gap-y-[10px] text-center pr-[60px]">
+                <h1 class="text-[64px] font-semibold">590k</h1>
+                <p class="text-[18px]">Project Complete</p>
+                <span class="text-16px text-[#C4C4C4]">My Achievement</span>
+            </div>
+            <div class="flex flex-col gap-y-[10px] text-center pr-[60px]">
+                <h1 class="text-[64px] font-semibold">28+</h1>
+                <p class="text-[18px]">Experience</p>
+                <span class="text-16px text-[#C4C4C4]">High quailified</span>
+            </div>
+        </section>
+
+        <section class="container mx-auto p-[100px] bg-blue_bg gap-y-[40px] text-white text-[16px]">
+            <div class=" flex flex-col gap-y-[56px]">
+                <div class="flex flex-col gap-y-[50px] items-center lg:flex-row lg:justify-between lg:items-end">
+                    <div class="flex flex-col items-center xl:items-start gap-y-[20px]">
+                        <span class="font-ubuntu uppercase text-[20px] xl:text-16px">best services</span>
+                        <h1
+                            class="xl:text-[40px] text-[35px] font-bold font-ubuntu lg:w-[430px] xl:w-[477px] xl:text-start text-center">
+                            Benefits You get when using our services</h1>
+                    </div>
+                    <div>
+                        <p class="text-[16px] font-normal leading-[180%] w-[300px] lg:w-[350px] xl:w-[390px] xl:text-start text-center"">While we can customize your needs plan to suit your needs, most clients schedule regular interior services</p></div>
+                </div>
+                <div class=" flex flex-col gap-y-[50px] text-ceter lg:text-start lg:flex-row lg:justify-between
+                            items-center lg:items-start">
+                        <div class="flex flex-row items-start gap-x-[16px]">
+                            <img src="./images/logo_small.png" alt="">
+                            <div class="flex flex-col items-start gap-y-[15px]">
+                                <h1 class="text-[20px] font-bold font-ubuntu capitalize">Best Quality</h1>
+                                <p class="text-[16px] leading-[180%] font-normal w-[200px] xl:w-[230px]">It starts with
+                                    our fun and easy project questionnaire where you’ll provide details.</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-row items-start gap-x-[16px]">
+                            <img src="./images/logo_small2.png" alt="">
+                            <div class="flex flex-col items-start gap-y-[15px]">
+                                <h1 class="text-[20px] font-bold font-ubuntu capitalize">Excellent Design</h1>
+                                <p class="text-[16px] leading-[180%] font-normal w-[200px] xl:w-[230px]">After getting
+                                    matched, your designer will message with you to collaborate on ideas.</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-row items-start gap-x-[16px]">
+                            <img src="./images/logo_small3.png" alt="">
+                            <div class="flex flex-col items-start gap-y-[15px]">
+                                <h1 class="text-[20px] font-bold font-ubuntu capitalize">guaranteed Shipping</h1>
+                                <p class="text-[16px] leading-[180%] font-normal w-[200px] xl:w-[230px]">Designer
+                                    incorporates feedback into the final room design and layout with.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <!-- <section class="container mx-auto bg-blue_bg">
+            <div>
+                <div class="flex flex-col items-center text-center text-white mb-[72px]">
+                    <h1 class="text-[36px] font-ubuntu font-bold">What we have for you</h1>
+                    <p class="text-[24px]">Some of the services we provide to meet your needs</p>
+                </div>
+                <div>
+                    <div>
+                        <div class="rounded-[10px]  lg:w-[460px] xl:w-[540px] pl-[30px] py-[20px] bg-white flex flex-row items-start gap-x-[16px]">
+                            <img class="hidden w-[80px] h-[80px]" src="./images/logo_small.png" alt="">
+                            <div class="flex flex-col items-start gap-y-[25px]">
+                                <h1 class="text-[24px] font-bold font-ubuntu">Corporate Web Design</h1>
+                                <span class="text-[18px] w-[352px]">A marketing tool that is a complete solution 
+                                    for bringing your company within reach of 
+                                    your target market; Wrapped up in great 
+                                    UI/UX design and informative contents 
+                                    about your products or services.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <section class="container mx-auto p-[100px] flex flex-col gap-y-[60px] bg-blue_bg text-white">
+            <div class="flex flex-col items-center gap-y-[20px]">
+                <h1 class="text-[50px] text-center">Some of my Creative work</h1>
+                <p class="text-[14px] text-[#999] w-[417px] text-center">An all electric vehicle offering an estimated 20 plus miles of range
+                    per charge for an affordable price is how we define but passion
+                    and persistence are the principles used to accomplish it</p>
+            </div>
+            <div class="flex flex-col gap-y-[25px]">
+                <div class="flex flex-col items-center lg:items-start lg:flex-row justify-between gap-y-[25px]">
+                    <img class="xl:w-[520px] xl:h-[310px] lg:w-[400px] lg:h-[250px]" src="./images/img_big.png" alt="">
+                    <img class="xl:w-[520px] xl:h-[310px] lg:w-[400px] lg:h-[250px]" src="./images/img_big2.png" alt="">
+                </div>
+                <div class="flex flex-col  items-center lg:items-start  lg:flex-row justify-between gap-y-[25px]">
+                    <img class="xl:w-[520px] xl:h-[310px] lg:w-[400px] lg:h-[250px]" src="./images/img_big3.png" alt="">
+                    <img class="xl:w-[520px] xl:h-[310px] lg:w-[400px] lg:h-[250px]" src="./images/img_big4.png" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>
